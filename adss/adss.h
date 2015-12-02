@@ -152,6 +152,11 @@ public:
 	return false;
 	}
 
+	void instructions() {
+		cout << "\033[2J\033[1;1H";
+		cout<<"=============================\n";
+		cout<<"\tADSS SYSTEM\n=============================\n";
+	}
 };
 
 string secrectPwd = "admin";

@@ -4,16 +4,15 @@ using namespace std;
 
 int main ()
 {
-	cout << "\033[2J\033[1;1H";
 	ifstream myfile;
 	myfile.open (&fileName[0]);
 
 	adss ADSS;
 
+	ADSS.instructions();
 	int count = 1;
 	string line;
-	cout<<"=============================\n";
-	cout<<"\tADSS SYSTEM\n=============================\n";
+	
 	while (getline (myfile,line)) {
 		log* allData = new log;
 		size_t pos = 0;

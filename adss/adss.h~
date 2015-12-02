@@ -77,6 +77,9 @@ public:
 		cout<<"\nRoom Number: ";
 		cin>>node->_roomNumb;
 
+		cout<<"\nCard Number: ";
+		cin>>node->_cardNumb;
+
 		time_t rawtime;
 		struct tm * timeinfo;
 		char buffer[80];
@@ -93,7 +96,7 @@ public:
 		string time(buffer1);
 		node->_time = time;
 
-		node->_cardNumb = "admin";
+		//node->_cardNumb = "admin";
 
 		insert(node);
 	}
@@ -149,6 +152,11 @@ public:
 	return false;
 	}
 
+	void instructions() {
+		cout << "\033[2J\033[1;1H";
+		cout<<"=============================\n";
+		cout<<"\tADSS SYSTEM\n=============================\n";
+	}
 };
 
 string secrectPwd = "admin";
