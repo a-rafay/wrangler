@@ -1,0 +1,2 @@
+channel_name PTV; start_time 9:00; name morning show; host mahira khan; end_time 10:00; start_time 10:00; name hamari dunya; actor fawad khan; end_time 11:00; start_time 11:00; name cricket; description india pakistan sharjah series; end_time 12:00;
+HD channel_name DunyaNews; start_time 9:00; name news hour; host Rauf Klasra; end_time 10:00; start_time 10:00; name Pakistan and the world; producer Ijaz Hashmi; end_time 11:00; start_time 11:00; name football; description friendly between France and Germany; end_time 12:00;
